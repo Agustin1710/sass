@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../imagenes/background.png);
+}
+/*Comienzo de Header*/
+
+
+.grid-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    height: 1300px;
+    gap: 20px;
+}
+
+/*Cabecera de pagina-Logo-Titulo*/
+
+header{
+    position: relative;
+    top: 10px;
+    left: 70px;
+    height: 70px;
+    width: 100%;
+    background: #000000;
+}
+
+header img{
+    position:absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 50%;
+    height:90%;
+}
+
+.logo-imagen{
+   position: absolute;
+   bottom: 85px;
+   width: 120px;
+}
+
+header h1{
+    position:absolute;
+    top: 2px;
+    left: 130px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+.primera-letra-titulo{
+    font-size: 200%;
+    color: #ffff00;
+}
+
+/*Fin-Cabecera de pagina-Logo-Titulo*/
+
+ /*barra de navergacion*/
+.menu{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgb(0, 255, 255); 
+}
+
+.menu ul li{
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+
+a {
+    background-image: linear-gradient(transparent 0%,
+                transparent 90%,
+                hotpink 90%,
+                hotpink 100%);
+        background-repeat: no-repeat;
+        background-size: 0% 90%;
+        background-position-x: right;
+        transition: background-size 300ms;
+}
+
+a:hover{
+    padding-bottom: 0px;
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.menu ul li a:hover{
+      color: #fdfafa;
+}
+
+
+
+ /*Fin-nav*/
+ /*Fin-header*/
+ 
+/*Inicio-Section*/
+
+section{
+    position: relative;
+    top: 100px;
+    left: 90px;
+    width: 100%;
+    margin: 50px;
+    height: 600px;
+}
+
+article{
+     padding-top: auto;
+     padding-bottom: auto;
+}
+
+section h2{
+    font-size: 33px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#Tabla{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+}
+ 
+tr td{
+    text-align: center;
+}
+
+tr td ol{
+    text-align: left;
+}
+
+
+#Tabla ol li{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+/*FIN-SECTION-INDEX*/
+/*INICIO-DE-SECTION-AUTOS*/
+ 
+.grid-galeria-section{
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   height: 1000px;
+   width: 100%;
+}
+
+.galeria-de-autos{
+    display: grid;
+    padding-top: 15%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+}
+
+.galeria img{
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.imagen-pequeña{
+   width: 100%;
+   border: 1px solid #000000;
+   padding: 5px;
+}
+
+/*FIN-DE-SECION-AUTOS*/
+
+
+
+/*Footer-inicio*/
+.pie-de-pagina{
+    position: relative;
+    margin-right: 5px;
+    margin-left: 100px;
+    top: 190px;
+    background: #000;
+    color: #fff;
+}
+
+.pie-de-pagina h3{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.pie-de-pagina p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*Footer-Fin*/
